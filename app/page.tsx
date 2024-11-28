@@ -23,7 +23,7 @@ export default async function Home() {
         <div className="space-y-4">
           <Link
             href="/dashboard"
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 inline-block"
+            className="bg-[#377BFF] text-white px-6 py-3 rounded-lg hover:bg-blue-700 inline-block"
           >
             Go to Dashboard
           </Link>

@@ -1,4 +1,4 @@
-// File: c:\Users\domin\Documents\GitHub\my-dev-journey\app\api\auth\[...nextauth]\route.ts
+// File: C:\Users\Complab502-01\Documents\GitHub\my-developer-journey\app\api\auth\[...nextauth]\route.ts
 import * as entry from '../../../../../../app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 
