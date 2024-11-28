@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+// File: C:\Users\Complab502-01\Documents\GitHub\my-developer-journey\app\api\goals\[id]\route.ts
+=======
 // File: C:\Users\Complab502-01\Documents\webdev-hackathon\mydev\app\api\goals\[id]\route.ts
+>>>>>>> c2213e71578ae879b9dacb446f36040644ccefe1
 import * as entry from '../../../../../../app/api/goals/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 

@@ -1,6 +1,15 @@
 {
+<<<<<<< HEAD
+  "/page": "app/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/goals/page": "app/goals/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/github/stats/route": "app/api/github/stats/route.js",
+  "/api/goals/streaks/route": "app/api/goals/streaks/route.js"
+=======
   "/not-found": "app/not-found.js",
   "/page": "app/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/goals/page": "app/goals/page.js"
+>>>>>>> c2213e71578ae879b9dacb446f36040644ccefe1
 }
