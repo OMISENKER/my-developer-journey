@@ -14,17 +14,17 @@ export default function Navbar() {
           <div className="">
             <Link href="/" className="text-xl font-bold text-white px-2 flex auto items-center">
               <h1 className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-4xl px-1 pb-1 rounded-lg">{"<>"}</h1>
-              <p className="ml-2 text-black">MyDevJourney!</p>
+              <p className="ml-2 text-black">MyDevJourney</p>
             </Link>
           </div>
           <div className="flex items-center space-x-4">
             {session ? (
               <>
                 <Link href="/dashboard" className="text-black bg-gray-100 rounded-md py-2 px-3 hover:bg-[#377BFF] hover:text-white">
-                  Dashboard!
+                  Dashboard
                 </Link>
                 <Link href="/goals" className="text-black bg-gray-100 rounded-md py-2 px-3 hover:bg-[#377BFF] hover:text-white">
-                  Goals!
+                  Goals
                 </Link>
                 <div className="flex items-center space-x-2">
                   
@@ -41,7 +41,7 @@ export default function Navbar() {
                         className="rounded-full"
                       />
                     )}
-                    <p className="pl-2">Sign out!</p>
+                    <p className="pl-2">Sign out</p>
                   </button>
                 </div>
               </>
@@ -51,7 +51,7 @@ export default function Navbar() {
                 className="bg-white text-white pl-2 py-1 pr-3 rounded-full hover:bg-gray-200 flex items-center"
               >
                 <img src="images/gitimgblack.png" alt="gitlogo" className="w-10" />
-                <p className="text-black">Sign in with GitHub!</p>
+                <p className="text-black">Sign in with GitHub</p>
               </button>
             )}
           </div>
