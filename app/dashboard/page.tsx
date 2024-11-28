@@ -130,7 +130,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-8">
       <div className="bg-white p-6 rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold mb-4">Welcome back, {session?.user?.name}!</h1>
+        <h1 className="text-2xl font-bold m b-4">Welcome back, {session?.user?.name}!</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           <div className="bg-gray-50 p-4 rounded-md">
@@ -150,7 +150,7 @@ export default function Dashboard() {
 
         <Link
           href="/goals"
-          className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
+          className="inline-block bg-[#377BFF] text-white px-4 py-2 rounded-md hover:bg-blue-700"
         >
           Manage Goals
         </Link>

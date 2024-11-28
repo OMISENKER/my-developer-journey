@@ -109,7 +109,7 @@ export default function Goals() {
         <h1 className="text-2xl font-bold">Development Goals</h1>
         <button
           onClick={() => setShowNewGoalForm(true)}
-          className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
+          className="bg-[#377BFF] text-white px-4 py-2 rounded-md hover:bg-blue-700"
         >
           Add New Goal
         </button>
@@ -211,7 +211,7 @@ export default function Goals() {
               </button>
               <button
                 type="submit"
-                className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700"
+                className="px-4 py-2 text-sm font-medium text-white bg-[#377BFF] rounded-md hover:bg-blue-700"
               >
                 Create Goal
               </button>
