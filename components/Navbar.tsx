@@ -12,17 +12,17 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-xl font-bold text-gray-800">
-            MyDevJourney
+            MyDevJourney!
           </Link>
 
           <div className="flex items-center space-x-4">
             {session ? (
               <>
                 <Link href="/dashboard" className="text-gray-600 hover:text-gray-900">
-                  Dashboard
+                  Dashboard!
                 </Link>
                 <Link href="/goals" className="text-gray-600 hover:text-gray-900">
-                  Goals
+                  Goals!
                 </Link>
                 <div className="flex items-center space-x-2">
                   {session.user?.image && (
@@ -38,7 +38,7 @@ export default function Navbar() {
                     onClick={() => signOut()}
                     className="text-sm text-gray-600 hover:text-gray-900"
                   >
-                    Sign out
+                    Sign out!
                   </button>
                 </div>
               </>
@@ -47,7 +47,7 @@ export default function Navbar() {
                 onClick={() => signIn('github')}
                 className="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-800"
               >
-                Sign in with GitHub
+                Sign in with GitHub!
               </button>
             )}
           </div>
