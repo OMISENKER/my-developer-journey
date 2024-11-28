@@ -1,3 +1,8 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/goals/page": "app/goals/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/github/stats/route": "app/api/github/stats/route.js",
+  "/api/goals/streaks/route": "app/api/goals/streaks/route.js"
 }

@@ -5,7 +5,7 @@ export default async function Home() {
   const session = await getServerSession()
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[80vh] text-center">
+    <div className="flex flex-col items-center justify-center min-h-[80vh] text-center ">
       <h1 className="text-4xl font-bold mb-6">
         Track Your Developer Journey
       </h1>
@@ -23,7 +23,7 @@ export default async function Home() {
         <div className="space-y-4">
           <Link
             href="/dashboard"
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 inline-block"
+            className="bg-[#377BFF] text-white px-6 py-3 rounded-lg hover:bg-blue-700 inline-block"
           >
             Go to Dashboard
           </Link>
