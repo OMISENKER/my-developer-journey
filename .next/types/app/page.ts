@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // File: C:\Users\Complab502-01\Documents\GitHub\my-developer-journey\app\page.tsx
+=======
+// File: C:\Users\Complab502-01\Documents\webdev-hackathon\mydev\app\page.tsx
+>>>>>>> c2213e71578ae879b9dacb446f36040644ccefe1
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

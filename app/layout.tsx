@@ -24,7 +24,7 @@ export default async function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <SessionProvider session={session}>
-          <div className="min-h-screen bg-gray-50">
+          <div className="min-h-screen bg-gradient-to-r from-blue-200 to-violet-200">
             <Navbar />
             <main className="container mx-auto px-4 py-8">
               {children}
