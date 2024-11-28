@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 // File: C:\Users\Complab502-01\Documents\webdev-hackathon\mydev\app\goals\page.tsx
+=======
+<<<<<<< HEAD
+// File: C:\Users\Complab502-01\Documents\GitHub\my-developer-journey\app\goals\page.tsx
+=======
+// File: C:\Users\Complab502-01\Documents\webdev-hackathon\mydev\app\goals\page.tsx
+>>>>>>> c2213e71578ae879b9dacb446f36040644ccefe1
+>>>>>>> cddf7070fa1a181eb663778177ebb058e30a94ae
 import * as entry from '../../../../app/goals/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
