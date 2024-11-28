@@ -4,6 +4,7 @@ import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import { MonthlyRecap } from '../../components/MonthlyRecap'
+import Image from 'next/image'
 import Link from 'next/link'
 
 interface GitHubStats {
@@ -154,12 +155,22 @@ export default function Dashboard() {
           Manage Goals
         </Link>
       </div>
-      <button
+      <div className="flex flex-col gap-8 items-center justify-center bg-gradient-to-r from-[#377bff] to-violet-400 p-10 rounded-lg relative">
+        <Image src={"assets/dev.svg"} alt="flower" width={180} height={200} className="absolute left-56"/>
+        <div className="h-36 w-36 rounded-full aspect-square bg-gradient-to-r from-pink-600 to-pink-400 absolute right-5 bottom-5 blur-lg opacity-40
+        "/>
+        <h1 className="text-white text-2xl font-bold">{session?.user?.name}, Your Monthly DevWrapped is here!</h1>
+        <div className="flex gap-8 items-center justify-center">
+          {/* <Image src={"assets/dev.svg"} alt="developer" width={100} height={80}/> */}
+        <button
         onClick={() => setIsRecapOpen(true)}
-        className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+        className="bg-white h-12 text-[#377bff] font-semibold px-4 py-2 rounded-lg bg-gradient-to-r from-white to-white hover:bg-gradient-to-r hover:from-pink-600 hover:to-pink-400 hover:text-white transition-colors ease-linear delay-450 duration-500"
       >
-        View Monthly Recap
-      </button>
+        View My Developer Journey Monthly Wrapped 
+      </button></div>
+        
+      </div>
+      
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold mb-4">Goal Streaks 🔥</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
